@@ -33,8 +33,17 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
+input[type=submit] {
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  background: none;
+}
+
 input, button, textarea {
   font-family: inherit;
+  border-radius: none;
+  box-shadow: none;
 }
 
 input::-ms-clear {
