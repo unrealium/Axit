@@ -35,15 +35,17 @@ html, body {
 
 input[type=submit] {
   box-shadow: none;
-  border-radius: none;
-  border: none;
-  background: none;
+  -webkit-appearance: none;
+  -webkit-border-radius:0;
+  border-radius: 0;
 }
 
 input, button, textarea {
   font-family: inherit;
-  border-radius: none;
   box-shadow: none;
+  -webkit-appearance: none;
+  -webkit-border-radius:0;
+  border-radius: 0;
 }
 
 input::-ms-clear {
