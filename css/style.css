@@ -1123,6 +1123,7 @@ body.lock {
 }
 .block6__subtitle {
   font-size: 14px;
+  line-height: 18px;
   color: #86878b;
 }
 .block6__body {
@@ -1232,6 +1233,7 @@ body.lock {
   text-align: center;
 }
 .block7__subtitle {
+  line-height: 18px;
   color: #86878b;
 }
 .block7__body {
@@ -1345,6 +1347,7 @@ body.lock {
 }
 .block8__subtitle {
   font-size: 14px;
+  line-height: 18px;
   color: #86878b;
   text-align: center;
 }
@@ -1509,6 +1512,7 @@ body.lock {
 .block10__subtitle {
   text-align: center;
   font-size: 14px;
+  line-height: 18px;
   color: #86878b;
 }
 .block10__form {
