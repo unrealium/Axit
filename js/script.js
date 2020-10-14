@@ -1,7 +1,9 @@
-$('.icon-burger').click(function(event){
-	$(this).toggleClass('active');
-	$('.navigation__body').toggleClass('active');
-	$('body').toggleClass('lock');
+$(document).ready(function(){
+  $('.icon-burger').click(function(event){
+  	$(this).toggleClass('active');
+  	$('.navigation__body').toggleClass('active');
+  	$('body').toggleClass('lock');
+  });
 });
 
 (function($) {

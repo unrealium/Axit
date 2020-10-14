@@ -38,7 +38,7 @@
 			<div class="container">
 				<div class="block1__row">
 					<div class="block1__column">
-						<div class="block1__content">
+						<div class="block1__body">
 							<div class="block1__logo">
 								<img src="img/logo_2.png" alt="">
 							</div>
@@ -51,9 +51,9 @@
 						<form action="" class="block1__form form">
 							<div class="form__title">Try Your <span>free</span> Trial Today</div>
 							<div class="form__body">
-								<input type="name" class="form__name" placeholder="Name">
-								<input type="email" class="form__email" placeholder="Email">
-								<input type="password" class="form__password" placeholder="Password">
+								<input type="name" required class="form__name" placeholder="Name">
+								<input type="email" required class="form__email" placeholder="Email">
+								<input type="password" required class="form__password" placeholder="Password">
 							</div>
 							<input type="submit" name="submit" class="form__submit" value="Get Started">
 						</form>
@@ -218,7 +218,7 @@
 							</div>
 						</div>
 						<div class="block6__column">
-							<div class="block6__card card">
+							<div class="block6__card block6__card_last card">
 								<div class="card__ico">
 									<img src="img/block6/ico_03.png" alt="">
 								</div>
@@ -371,9 +371,16 @@
 					<form action="" class="block10__form">
 						<div class="block10__row">
 							<div class="block10__column">
-								<input type="name" class="block10__name" placeholder="Name">
-								<input type="email" class="block10__email" placeholder="Email">
-								<input type="password" class="block10__subject" placeholder="Subject">
+								<div class="block10__name">
+									<input type="name" name="name" required placeholder="Name*">
+								</div>
+								<div class="block10__email">
+									<input type="email" name="email" required placeholder="Email*">
+									<span class="form-error">Это поле должно содержать Email в формате name@mail.ru</span>
+								</div>
+								<div class="block10__subject">
+									<input type="subject" name="subject" placeholder="Subject">
+								</div>
 							</div>
 							<div class="block10__column">
 								<textarea name="" class="block10__message" placeholder="Message"></textarea>
